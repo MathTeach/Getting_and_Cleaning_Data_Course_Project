@@ -1,6 +1,6 @@
-## Getting and Cleaning Data - Course Project
+# Getting and Cleaning Data - Course Project
 
-# Introduction
+## Introduction
 
 This repository contains all my files for the Course Project under Coursera's Getting and Cleaning Data
 Course. The files in this repository are as follows:
@@ -11,7 +11,7 @@ Course. The files in this repository are as follows:
 
 The purpose of the course project is to use R programming to convert raw data into tidy data.
 
-# Data Files [1]
+## Data Files [1]
 
 For this project, the data used was the Human Activity Recognition Using Smartphones Dataset. A full
 description of the data is available from the website where the data was originally obtained: 
@@ -21,7 +21,7 @@ For this project, I assumed that the zipped data file has been downloaded and un
 working directory. The data for this project can be obtained here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-# The Script - run_analysis.R
+## The Script - run_analysis.R
 
 The key steps for the R script are as follows:
 
@@ -36,7 +36,7 @@ column names.
 * A tidy data set with 180 rows and 68 columns is created. In this data set, each subject/activity pair has one 
 average value per variable.
 
-# The Tidy Data Set - tidy_data.txt
+## The Tidy Data Set - tidy_data.txt
 
 According to Hadley Wickham, a tidy data has the following properties: [2]
 * Each variable forms a column.
@@ -46,7 +46,7 @@ According to Hadley Wickham, a tidy data has the following properties: [2]
 The text file created by run_analysis.R, tidy_data.txt satisfies those properties.
 
 
-# References 
+## References 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz.
 Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. 
 International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
