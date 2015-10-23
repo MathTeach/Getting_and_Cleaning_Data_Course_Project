@@ -15,61 +15,92 @@ transform the raw data into tidy data.
 
 ## Description of Variables  
 
-1. subjectid  
+*subjectid    
+ location: column 1    
+ values: integer value in the range [1,30]    
+ description: This variable is used as subject identifier. Each subject or participant was assigned a unique    
+ integer identifier.    
 
-location: column 1  
-values: integer value in the range [1,30]  
-description: This variable is used as subject identifier. Each subject or participant was assigned a unique  
-integer identifier.  
+*activity      
+ location: column 2    
+ values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING      
+ description: This variable is used to denote the various activities for which measurements were taken. Each      
+ subject performed each of the six activities.         
 
-2. activity  
-
-location: column 2  
-values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING    
-description: This variable is used to denote the various activities for which measurements were taken. Each   
-subject performed each of the six activities.  
-
-3. AveragetBodyAccMeanX             |AveragetBodyAccMeanY            
-   AveragetBodyAccMeanZ             |AveragetGravityAccMeanX         
-   AveragetGravityAccMeanY          |AveragetGravityAccMeanZ        
-   AveragetBodyAccJerkMeanX         |AveragetBodyAccJerkMeanY        
-   AveragetBodyAccJerkMeanZ         |AveragetBodyGyroMeanX           
-   AveragetBodyGyroMeanY            |AveragetBodyGyroMeanZ           
-   AveragetBodyGyroJerkMeanX        |AveragetBodyGyroJerkMeanY       
-   AveragetBodyGyroJerkMeanZ        |AveragetBodyAccMagMean          
-   AveragetGravityAccMagMean        |AveragetBodyAccJerkMagMean      
-   AveragetBodyGyroMagMean          |AveragetBodyGyroJerkMagMean     
-   AveragefBodyAccMeanX             |AveragefBodyAccMeanY            
-   AveragefBodyAccMeanZ             |AveragefBodyAccJerkMeanX        
-   AveragefBodyAccJerkMeanY         |AveragefBodyAccJerkMeanZ        
-   AveragefBodyGyroMeanX            |AveragefBodyGyroMeanY           
-   AveragefBodyGyroMeanZ            |AveragefBodyAccMagMean          
-   AveragefBodyBodyAccJerkMagMean   |AveragefBodyBodyGyroMagMean     
-   AveragefBodyBodyGyroJerkMagMean  |AveragetBodyAccStDevX           
-   AveragetBodyAccStDevY            |AveragetBodyAccStDevZ           
-   AveragetGravityAccStDevX         |AveragetGravityAccStDevY        
-   AveragetGravityAccStDevZ         |AveragetBodyAccJerkStDevX       
-   AveragetBodyAccJerkStDevY        |AveragetBodyAccJerkStDevZ       
-   AveragetBodyGyroStDevX           |AveragetBodyGyroStDevY          
-   AveragetBodyGyroStDevZ           |AveragetBodyGyroJerkStDevX      
-   AveragetBodyGyroJerkStDevY       |AveragetBodyGyroJerkStDevZ      
-   AveragetBodyAccMagStDev          |AveragetGravityAccMagStDev      
-   AveragetBodyAccJerkMagStDev      |AveragetBodyGyroMagStDev        
-   AveragetBodyGyroJerkMagStDev     |AveragefBodyAccStDevX           
-   AveragefBodyAccStDevY            |AveragefBodyAccStDevZ           
-   AveragefBodyAccJerkStDevX        |AveragefBodyAccJerkStDevY       
-   AveragefBodyAccJerkStDevZ        |AveragefBodyGyroStDevX          
-   AveragefBodyGyroStDevY           |AveragefBodyGyroStDevZ          
-   AveragefBodyAccMagStDev          |AveragefBodyBodyAccJerkMagStDev 
-   AveragefBodyBodyGyroMagStDev     |AveragefBodyBodyGyroJerkMagStDev
+* AveragetBodyAccMeanX                 
+  AveragetBodyAccMeanY     
+  AveragetBodyAccMeanZ       
+  AveragetGravityAccMeanX                
+  AveragetGravityAccMeanY     
+  AveragetGravityAccMeanZ             
+  AveragetBodyAccJerkMeanX  
+  AveragetBodyAccJerkMeanY          
+  AveragetBodyAccJerkMeanZ  
+  AveragetBodyGyroMeanX             
+  AveragetBodyGyroMeanY  
+  AveragetBodyGyroMeanZ             
+  AveragetBodyGyroJerkMeanX    
+  AveragetBodyGyroJerkMeanY          
+  AveragetBodyGyroJerkMeanZ   
+  AveragetBodyAccMagMean             
+  AveragetGravityAccMagMean  
+  AveragetBodyAccJerkMagMean         
+  AveragetBodyGyroMagMean   
+  AveragetBodyGyroJerkMagMean        
+  AveragefBodyAccMeanX   
+  AveragefBodyAccMeanY               
+  AveragefBodyAccMeanZ   
+  AveragefBodyAccJerkMeanX           
+  AveragefBodyAccJerkMeanY   
+  AveragefBodyAccJerkMeanZ            
+  AveragefBodyGyroMeanX   
+  AveragefBodyGyroMeanY              
+  AveragefBodyGyroMeanZ   
+  AveragefBodyAccMagMean             
+  AveragefBodyBodyAccJerkMagMean   
+  AveragefBodyBodyGyroMagMean         
+  AveragefBodyBodyGyroJerkMagMean    
+  AveragetBodyAccStDevX              
+  AveragetBodyAccStDevY   
+  AveragetBodyAccStDevZ              
+  AveragetGravityAccStDevX   
+  AveragetGravityAccStDevY           
+  AveragetGravityAccStDevZ   
+  AveragetBodyAccJerkStDevX          
+  AveragetBodyAccJerkStDevY   
+  AveragetBodyAccJerkStDevZ          
+  AveragetBodyGyroStDevX   
+  AveragetBodyGyroStDevY             
+  AveragetBodyGyroStDevZ   
+  AveragetBodyGyroJerkStDevX         
+  AveragetBodyGyroJerkStDevY   
+  AveragetBodyGyroJerkStDevZ         
+  AveragetBodyAccMagStDev   
+  AveragetGravityAccMagStDev         
+  AveragetBodyAccJerkMagStDev   
+  AveragetBodyGyroMagStDev            
+  AveragetBodyGyroJerkMagStDev   
+  AveragefBodyAccStDevX              
+  AveragefBodyAccStDevY   
+  AveragefBodyAccStDevZ               
+  AveragefBodyAccJerkStDevX  
+  AveragefBodyAccJerkStDevY         
+  AveragefBodyAccJerkStDevZ   
+  AveragefBodyGyroStDevX             
+  AveragefBodyGyroStDevY   
+  AveragefBodyGyroStDevZ             
+  AveragefBodyAccMagStDev   
+  AveragefBodyBodyAccJerkMagStDev    
+  AveragefBodyBodyGyroMagStDev   
+  AveragefBodyBodyGyroJerkMagStDev   
    
-location: columns 3 - 68  
-values: normalized numeric values within the range [-1,1]   
-description: From the raw data for the 561 - feature vector, mean and standard deviation variables were extracted.  
-For each subjectid/activity pair, the average value for each extracted variable was calculated and stored in   
-tidy_data.txt. The 66 variables above are the result of the "averaging process".  
+ location: columns 3 - 68     
+ values: normalized numeric values within the range [-1,1]      
+ description: From the raw data for the 561 - feature vector, mean and standard deviation variables were extracted.     
+ For each subjectid/activity pair, the average value for each extracted variable was calculated and stored in       
+ tidy_data.txt. The 66 variables above are the result of the "averaging process".      
 
-## Transformation of Data  
+## Transformation of Data    
 
 From the raw data, R programming was used to derive the tidy data. The key steps in the transformation are:  
 
