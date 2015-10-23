@@ -15,17 +15,17 @@ transform the raw data into tidy data.
 
 ## Description of Variables  
 
-*subjectid    
- location: column 1    
- values: integer value in the range [1,30]    
- description: This variable is used as subject identifier. Each subject or participant was assigned a unique    
- integer identifier.    
+* subjectid    
+  location: column 1    
+  values: integer value in the range [1,30]    
+  description: This variable is used as subject identifier. Each subject or participant was assigned a unique    
+  integer identifier.    
 
-*activity      
- location: column 2    
- values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING      
- description: This variable is used to denote the various activities for which measurements were taken. Each      
- subject performed each of the six activities.         
+* activity      
+  location: column 2    
+  values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING      
+  description: This variable is used to denote the various activities for which measurements were taken. Each      
+  subject performed each of the six activities.         
 
 * AveragetBodyAccMeanX                 
   AveragetBodyAccMeanY     
