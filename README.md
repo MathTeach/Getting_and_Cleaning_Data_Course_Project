@@ -25,17 +25,17 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The key steps for the R script are as follows:  
 
-1. The program checks if the required reshape2 package is installed. If it is not yet installed in the machine,  
-the program installs it.  
+1. The program checks if the required reshape2 package is installed. If it is not yet installed in the  
+machine, the program installs it.    
 2. The training and test data sets were merged into one complete data set.  
 3. Mean and Standard Deviation measurements were extracted from the complete data set.  
 4. Activity labels were converted to more descriptive activity names.  
-5. Column names were changed to more descriptive variable names. In order to keep the column names readable,   
-certain letters were left uppercase. Converting all the letters to lowercase does not produce descriptive  
-and readable column names.  
+5. Column names were changed to more descriptive variable names. In order to keep the column  
+names readable,   certain letters were left uppercase. Converting all the letters to lowercase   
+does not produce descriptive and readable column names.        
 6. The average values of feature measurements for each subjectid/activity pair were calculated.  
-7. A tidy data set with 180 rows and 68 columns was created. In this data set, each subject/activity pair has one   
-average value per variable.  
+7. A tidy data set with 180 rows and 68 columns was created. In this data set, each subject/activity    
+pair has one average value per variable.    
 
 ## The Tidy Data Set - tidy_data.txt  
 

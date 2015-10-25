@@ -73,7 +73,7 @@ Coursera's Getting and Cleaning Data class, other properties of tidy data are: [
 The text file created by run_analysis.R, tidy_data.txt, satisfies these properties.  
 
 __In order to view the file tidy_data.txt, it would be best to read it into R and print in the console. The__         
-__following line of coding can be used to view the first 6 rows:__   
+__following lines of coding can be used to view the first 6 rows:__    
 
     >tidy_data <- read.table("tidy_data.txt", header = TRUE)   
     >head(tidy_data)   
