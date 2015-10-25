@@ -11,11 +11,11 @@ Course. The files in this repository are as follows:
 
 The purpose of the course project is to use R programming to convert raw data into tidy data.  
 
-## Data Files [1]  
+## Raw Data Files   
 
 For this project, the data used was the Human Activity Recognition Using Smartphones Dataset. A full  
 description of the data is available from the website where the data was originally obtained:   
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#  
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones# [1]     
 
 For this project, I assumed that the zipped data file has been downloaded and unzipped in the   
 working directory. The data for this project can be obtained here:  
@@ -39,18 +39,10 @@ average value per variable.
 
 ## The Tidy Data Set - tidy_data.txt  
 
-According to Hadley Wickham, a tidy data has the following properties: [2]  
-* Each variable forms a column.  
-* Each observation forms a row.  
-* Each type of observational unit forms a table.  
-
-The text file created by run_analysis.R, tidy_data.txt, satisfies those properties.  
-
+Please refer to CodeBook.md for a more thorough discussion of the tidy data set created by run_analysis.R.
 
 ## References   
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz.  
 Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine.   
 International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012  
 
-[2] Wickham, Hadley. Tidy Data. Journal of Statistical Software.  
-http://vita.had.co.nz/papers/tidy-data.pdf  
