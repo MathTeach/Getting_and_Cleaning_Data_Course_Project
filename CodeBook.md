@@ -65,7 +65,7 @@ According to Hadley Wickham, a tidy data has the following properties: [1]
 * Each type of observational unit forms a table.  
 
 According to Jeff Leek, professor at Johns Hopkins Bloomberg School of Public Health and instructor of    
-Coursera's Getting and Cleaning Data class, other properties of tidy data are:         
+Coursera's Getting and Cleaning Data class, other properties of tidy data are: [2]           
 * There is a row of variable names at the top of the file.    
 * Variable names are human readable.    
 * In general, data should be saved in one file per table.    
