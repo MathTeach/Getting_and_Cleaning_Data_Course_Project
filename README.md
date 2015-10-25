@@ -39,7 +39,7 @@ average value per variable.
 
 ## The Tidy Data Set - tidy_data.txt  
 
-Please refer to CodeBook.md for a more thorough discussion of the tidy data set created by run_analysis.R.
+Please refer to CodeBook.md for a thorough discussion of the tidy data set created by run_analysis.R.
 
 ## References   
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz.  
